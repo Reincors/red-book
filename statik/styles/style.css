@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFE4E1;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navigate {
+    padding: 20px 0 20px 0;
+    background-color: #AA3939;
+}
+
+li {
+    list-style: disc;
+}
+
+h1,h2 {
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+    text-align: center;
+}
+
+.ssd {
+    list-style: none;
+    width: 100%;
+    background-color: #ADD8E6;
+    color: #1E3A8A;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.blackleleca, .orlan, .socil{
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 10px 5px 5px 5px;
+    background-color: #D0EFFF;
+    display: inline-block;
+    margin: 0 0 0 10px;
+    text-align: center;
+    color: #1E3A8A;
+    width: 200px;
+}
+
+.vidra, .babak, .kit{
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 10px 5px 5px 5px;
+    background-color: #FFF5E6;
+    display: inline-block;
+    margin: 0 0 0 10px;
+    text-align: center;
+    color: #5C4033;
+    width: 200px;
+}
+
+.mahaom, .zuk, .krasnotil{
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 10px 5px 5px 5px;
+    background-color: #FFFACD;
+    display: inline-block;
+    margin: 0 0 0 10px;
+    text-align: center;
+    color: #D2691E;
+    width: 200px;
+}
+
+.shafran, .tulpan, .goricvit{
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 10px 5px 5px 5px;
+    background-color: #F5F5DC;
+    display: inline-block;
+    margin: 0 0 0 10px;
+    text-align: center;
+    color: #4B2E2E;
+    width: 200px;
+}
+
+.carti{
+    margin-left: 21%;
+}
+
+.navigate ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigate li {
+    list-style: none;
+}
+
+.left-table {
+    position: fixed;
+    padding: 0 5px 0 5px;
+    float: left;
+    background-color: #F0F0F0;
+    border: 3px solid peru;
+}
+
+.navigate a:hover {
+    text-decoration: underline;
+    background-color: #b04848;
+    font-size: 21px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #FFAAAA;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+button,
+input {
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 3px;
+}

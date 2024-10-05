@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFE4E1;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navigate {
+    padding: 20px 0 20px 0;
+    background-color: #AA3939;
+}
+
+p {
+    margin-left: 22%;
+    font-size: 20px;
+    color: #4F4F4F;
+}
+
+li {
+    list-style: disc;
+    color: #4F4F4F;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.navigate ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigate li {
+    list-style: none;
+}
+
+.navigate a:hover {
+    text-decoration: underline;
+    background-color: #b04848;
+    font-size: 21px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button,
+input {
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+a {
+    color: #FFAAAA;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.ssd {
+    list-style: none;
+    width: 100%;
+    background-color: #ADD8E6;
+    color: #1E3A8A;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: "Open Sans", sans-serif;
+    color: #5C4033;
+    text-align: center;
+}
+
+.left-table {
+    position: fixed;
+    padding: 0 5px 0 5px;
+    float: left;
+    background-color: #F0F0F0;
+    border: 3px solid peru;
+}
